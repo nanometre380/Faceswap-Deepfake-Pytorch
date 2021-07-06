@@ -148,6 +148,4 @@ if __name__ == "__main__":
         figure = np.clip(figure * 255, 0, 255).astype('uint8')
 
         cv2.imshow("", figure)
-        key = cv2.waitKey(1)
-        if key == ord('q'):
-            exit()
+        
